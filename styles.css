@@ -1,0 +1,53 @@
+/* Custom Styles for Food, LLC */
+
+/* Content Section */
+.content-section {
+    background-color: #f8f9fa;
+    min-height: 1000px;
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+}
+
+/* Mobile Menu Dropdown Background */
+.navbar-collapse {
+    background-color: #f8f9fa;
+}
+
+/* Ensure mobile menu takes full width */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    
+    .navbar-nav {
+        margin: 0;
+    }
+    
+    .navbar-nav > li > a {
+        padding: 15px;
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+
+/* Page Heading */
+h1 {
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+/* Content Section Headings */
+.content-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Content Section Paragraphs */
+.content-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
